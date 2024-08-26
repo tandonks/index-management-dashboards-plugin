@@ -8,7 +8,7 @@ exports[`<IndexDetail /> spec render the component 1`] = `
   >
     <div
       class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--alignItemsFlexStart euiFlexGroup--justifyContentSpaceBetween euiFlexGroup--directionRow euiFlexGroup--responsive"
-      style="padding: 0px 10px;"
+      style="padding: 0px 16px;"
     >
       <div
         class="euiFlexItem"
@@ -30,7 +30,7 @@ exports[`<IndexDetail /> spec render the component 1`] = `
       class="euiHorizontalRule euiHorizontalRule--full euiHorizontalRule--marginXSmall"
     />
     <div
-      style="padding: 0px 10px;"
+      style="padding: 0px 16px;"
     >
       <div
         class="euiSpacer euiSpacer--l"

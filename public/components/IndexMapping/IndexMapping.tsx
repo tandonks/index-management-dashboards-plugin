@@ -14,6 +14,7 @@ import {
   EuiButtonGroup,
   EuiLink,
   EuiCallOut,
+  EuiText,
 } from "@elastic/eui";
 import { set, get, isEmpty } from "lodash";
 import MonacoJSONEditor, { IJSONEditorRef } from "../MonacoJSONEditor";
@@ -30,7 +31,7 @@ export * from "./helper";
 export * from "./interfaces";
 
 const IndexMapping = (
-  { value: propsValue, onChange: propsOnChange, isEdit, oldValue, readonly, docVersion, useNewUx }: IndexMappingProps,
+  { value: propsValue, onChange: propsOnChange, isEdit, oldValue, readonly, docVersion }: IndexMappingProps,
   ref: Ref<IIndexMappingsRef>
 ) => {
   const value = propsValue?.properties || [];
@@ -199,7 +200,9 @@ const IndexMapping = (
               items={transformValueToTreeItems(value)}
             />
           ) : (
-            <p>You have no field mappings.</p>
+            <EuiText size="s">
+              <p>You have no field mappings.</p>
+            </EuiText>
           )}
           {readonly ? null : (
             <>

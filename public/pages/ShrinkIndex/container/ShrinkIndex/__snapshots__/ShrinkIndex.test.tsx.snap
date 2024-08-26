@@ -50,7 +50,7 @@ exports[`<Shrink index /> spec renders the component 1`] = `
     >
       <div
         class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--alignItemsFlexStart euiFlexGroup--justifyContentSpaceBetween euiFlexGroup--directionRow euiFlexGroup--responsive"
-        style="padding: 0px 10px;"
+        style="padding: 0px 16px;"
       >
         <div
           class="euiFlexItem"
@@ -72,7 +72,7 @@ exports[`<Shrink index /> spec renders the component 1`] = `
         class="euiHorizontalRule euiHorizontalRule--full euiHorizontalRule--marginXSmall"
       />
       <div
-        style="padding: 0px 10px;"
+        style="padding: 0px 16px;"
       >
         <div
           class="euiSpacer euiSpacer--l"
@@ -168,7 +168,7 @@ exports[`<Shrink index /> spec renders the component 1`] = `
     >
       <div
         class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--alignItemsFlexStart euiFlexGroup--justifyContentSpaceBetween euiFlexGroup--directionRow euiFlexGroup--responsive"
-        style="padding: 0px 10px;"
+        style="padding: 0px 16px;"
       >
         <div
           class="euiFlexItem"
@@ -190,7 +190,7 @@ exports[`<Shrink index /> spec renders the component 1`] = `
         class="euiHorizontalRule euiHorizontalRule--full euiHorizontalRule--marginXSmall"
       />
       <div
-        style="padding: 0px 10px;"
+        style="padding: 0px 16px;"
       >
         <div
           class="euiSpacer euiSpacer--m"
@@ -733,7 +733,7 @@ exports[`<Shrink index /> spec renders the component 1`] = `
         class="euiHorizontalRule euiHorizontalRule--full"
       />
       <div
-        style="padding: 0px 10px; display: none;"
+        style="padding: 0px 16px; display: none;"
       >
         <div
           class="euiSpacer euiSpacer--s"

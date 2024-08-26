@@ -95,7 +95,7 @@ exports[`<CreateDataStream /> spec it goes to data streams page when click cance
     >
       <div
         class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--alignItemsFlexStart euiFlexGroup--justifyContentSpaceBetween euiFlexGroup--directionRow euiFlexGroup--responsive"
-        style="padding: 0px 10px;"
+        style="padding: 0px 16px;"
       >
         <div
           class="euiFlexItem"
@@ -117,7 +117,7 @@ exports[`<CreateDataStream /> spec it goes to data streams page when click cance
         class="euiHorizontalRule euiHorizontalRule--full euiHorizontalRule--marginXSmall"
       />
       <div
-        style="padding: 0px 10px;"
+        style="padding: 0px 16px;"
       >
         <div
           class="euiSpacer euiSpacer--s"

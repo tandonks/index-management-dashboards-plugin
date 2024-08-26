@@ -8,7 +8,7 @@ exports[`<IndexForm /> spec render page 1`] = `
   >
     <div
       class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--alignItemsFlexStart euiFlexGroup--justifyContentSpaceBetween euiFlexGroup--directionRow euiFlexGroup--responsive"
-      style="padding: 0px 10px;"
+      style="padding: 0px 16px;"
     >
       <div
         class="euiFlexItem"
@@ -30,7 +30,7 @@ exports[`<IndexForm /> spec render page 1`] = `
       class="euiHorizontalRule euiHorizontalRule--full euiHorizontalRule--marginXSmall"
     />
     <div
-      style="padding: 0px 10px;"
+      style="padding: 0px 16px;"
     >
       <div
         class="euiForm"
@@ -190,7 +190,7 @@ exports[`<IndexForm /> spec render page 1`] = `
   >
     <div
       class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--alignItemsFlexStart euiFlexGroup--justifyContentSpaceBetween euiFlexGroup--directionRow euiFlexGroup--responsive"
-      style="padding: 0px 10px;"
+      style="padding: 0px 16px;"
     >
       <div
         class="euiFlexItem"
@@ -212,7 +212,7 @@ exports[`<IndexForm /> spec render page 1`] = `
       class="euiHorizontalRule euiHorizontalRule--full euiHorizontalRule--marginXSmall"
     />
     <div
-      style="padding: 0px 10px;"
+      style="padding: 0px 16px;"
     >
       <div
         class="euiForm"
@@ -598,7 +598,7 @@ exports[`<IndexForm /> spec render page 1`] = `
   >
     <div
       class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--alignItemsFlexStart euiFlexGroup--justifyContentSpaceBetween euiFlexGroup--directionRow euiFlexGroup--responsive"
-      style="padding: 0px 10px;"
+      style="padding: 0px 16px;"
     >
       <div
         class="euiFlexItem"
@@ -652,7 +652,7 @@ exports[`<IndexForm /> spec render page 1`] = `
       class="euiHorizontalRule euiHorizontalRule--full euiHorizontalRule--marginXSmall"
     />
     <div
-      style="padding: 0px 10px;"
+      style="padding: 0px 16px;"
     >
       <div
         class="euiFormRow euiFormRow--fullWidth euiFormRow--compressed"
@@ -728,9 +728,13 @@ exports[`<IndexForm /> spec render page 1`] = `
           <div
             class="euiSpacer euiSpacer--l"
           />
-          <p>
-            You have no field mappings.
-          </p>
+          <div
+            class="euiText euiText--small"
+          >
+            <p>
+              You have no field mappings.
+            </p>
+          </div>
           <div
             class="euiSpacer euiSpacer--l"
           />

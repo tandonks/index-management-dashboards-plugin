@@ -4,7 +4,17 @@
  */
 
 import React, { forwardRef, useContext, useEffect, useImperativeHandle, useRef, Ref, useState } from "react";
-import { EuiSmallButton, EuiSmallButtonEmpty, EuiCodeBlock, EuiFlexGroup, EuiFlexItem, EuiLink, EuiSpacer, EuiText, EuiTitle } from "@elastic/eui";
+import {
+  EuiSmallButton,
+  EuiSmallButtonEmpty,
+  EuiCodeBlock,
+  EuiFlexGroup,
+  EuiFlexItem,
+  EuiLink,
+  EuiSpacer,
+  EuiText,
+  EuiTitle,
+} from "@elastic/eui";
 import { RouteComponentProps } from "react-router-dom";
 import { IComposableTemplate, IComposableTemplateRemote } from "../../../../../models/interfaces";
 import useField from "../../../../lib/field";
@@ -131,7 +141,7 @@ const TemplateDetail = (props: TemplateDetailProps, ref: Ref<IComponentTemplateD
     isEdit,
     field,
     noPanel,
-    useNewUX,
+    useNewUx: useNewUX,
   };
 
   const diffedNumber = isEdit
@@ -297,7 +307,7 @@ const TemplateDetail = (props: TemplateDetailProps, ref: Ref<IComponentTemplateD
       <EuiSpacer />
       <IndexSettings {...subCompontentProps} />
       <EuiSpacer />
-      <TemplateMappings useNewUx={useNewUX} {...subCompontentProps} />
+      <TemplateMappings {...subCompontentProps} />
       <EuiSpacer />
       {isEdit || hideButton ? null : (
         <>

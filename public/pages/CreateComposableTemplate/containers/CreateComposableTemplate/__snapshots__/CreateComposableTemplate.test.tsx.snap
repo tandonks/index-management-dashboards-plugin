@@ -59,98 +59,85 @@ exports[`<CreateComposableTemplate /> spec it goes to templates page when click 
     />
     <div
       class="euiPanel euiPanel--paddingMedium euiPanel--borderRadiusMedium euiPanel--plain euiPanel--hasShadow"
-      style="padding-left: 0px; padding-right: 0px;"
     >
       <div
-        class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--alignItemsFlexStart euiFlexGroup--justifyContentSpaceBetween euiFlexGroup--directionRow euiFlexGroup--responsive"
-        style="padding: 0px 10px;"
+        class="euiFlexGroup euiFlexGroup--gutterExtraSmall euiFlexGroup--alignItemsCenter euiFlexGroup--directionRow euiFlexGroup--responsive"
       >
         <div
-          class="euiFlexItem"
+          class="euiText euiText--small"
         >
-          <h1
-            class="euiTitle euiTitle--small"
-          >
+          <h2>
             Define component template
-            <span
-              class="panel-header-count"
-            >
-               
-               
-            </span>
-          </h1>
+          </h2>
         </div>
       </div>
       <hr
         class="euiHorizontalRule euiHorizontalRule--full euiHorizontalRule--marginXSmall"
       />
       <div
-        style="padding: 0px 10px;"
+        class="euiDescribedFormGroup euiDescribedFormGroup--fullWidth"
+        role="group"
       >
         <div
-          class="euiSpacer euiSpacer--s"
-        />
-        <div
-          class="euiDescribedFormGroup euiDescribedFormGroup--fullWidth"
-          role="group"
+          class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--directionRow euiFlexGroup--responsive"
         >
           <div
-            class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--directionRow euiFlexGroup--responsive"
+            class="euiFlexItem"
+            style="max-width: 700px;"
           >
             <div
-              class="euiFlexItem"
-              style="max-width: 700px;"
+              class="euiTitle euiTitle--xsmall euiDescribedFormGroup__title"
             >
               <div
-                class="euiTitle euiTitle--xsmall euiDescribedFormGroup__title"
+                class="euiText euiText--small"
               >
-                <div>
+                <h3>
                   Description - 
                   <i>
                     optional
                   </i>
-                </div>
-              </div>
-              <div
-                class="euiText euiText--small euiDescribedFormGroup__description"
-              >
-                <div
-                  class="euiTextColor euiTextColor--subdued"
-                >
-                  Describe the purpose or contents to help you identify this component.
-                </div>
+                </h3>
               </div>
             </div>
             <div
-              class="euiFlexItem euiDescribedFormGroup__fields euiDescribedFormGroup__fieldPadding--xsmall"
+              class="euiText euiText--small euiDescribedFormGroup__description"
             >
               <div
-                class="euiFormRow euiFormRow--compressed"
-                data-test-subj="form-row-_meta.description"
-                id="some_html_id-row"
+                class="euiTextColor euiTextColor--subdued"
               >
-                <div
-                  class="euiFormRow__fieldWrapper"
+                Describe the purpose or contents to help you identify this component.
+              </div>
+            </div>
+          </div>
+          <div
+            class="euiFlexItem euiDescribedFormGroup__fields euiDescribedFormGroup__fieldPadding--xsmall"
+          >
+            <div
+              class="euiFormRow euiFormRow--compressed"
+              data-test-subj="form-row-_meta.description"
+              id="some_html_id-row"
+            >
+              <div
+                class="euiFormRow__fieldWrapper"
+              >
+                <span
+                  class="euiToolTipAnchor euiToolTipAnchor--displayBlock"
                 >
-                  <span
-                    class="euiToolTipAnchor euiToolTipAnchor--displayBlock"
+                  <div
+                    class="euiFormControlLayout euiFormControlLayout--compressed"
                   >
                     <div
-                      class="euiFormControlLayout euiFormControlLayout--compressed"
+                      class="euiFormControlLayout__childrenWrapper"
                     >
-                      <div
-                        class="euiFormControlLayout__childrenWrapper"
-                      >
-                        <input
-                          class="euiFieldText euiFieldText--compressed"
-                          id="some_html_id"
-                          type="text"
-                          value=""
-                        />
-                      </div>
+                      <input
+                        class="euiFieldText euiFieldText--compressed"
+                        id="some_html_id"
+                        type="text"
+                        value=""
+                      />
                     </div>
-                  </span>
-                </div>
+                  </div>
+                </span>
               </div>
             </div>
           </div>
@@ -166,7 +153,7 @@ exports[`<CreateComposableTemplate /> spec it goes to templates page when click 
     >
       <div
         class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--alignItemsFlexStart euiFlexGroup--justifyContentSpaceBetween euiFlexGroup--directionRow euiFlexGroup--responsive"
-        style="margin-top: 0px; margin-bottom: 0px; padding: 0px 10px;"
+        style="margin-top: 0px; margin-bottom: 0px; padding: 0px 16px;"
       >
         <div
           class="euiFlexItem"
@@ -183,9 +170,13 @@ exports[`<CreateComposableTemplate /> spec it goes to templates page when click 
                 for="some_html_id"
               >
                 <div
-                  class="euiTitle euiTitle--small"
+                  class="euiText euiText--small"
                 >
-                  Index alias
+                  <h2
+                    class="euiTitle euiTitle--medium"
+                  >
+                    Index alias
+                  </h2>
                 </div>
               </label>
             </div>
@@ -264,22 +255,20 @@ exports[`<CreateComposableTemplate /> spec it goes to templates page when click 
     >
       <div
         class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--alignItemsFlexStart euiFlexGroup--justifyContentSpaceBetween euiFlexGroup--directionRow euiFlexGroup--responsive"
-        style="margin-top: 0px; margin-bottom: 0px; padding: 0px 10px;"
+        style="margin-top: 0px; margin-bottom: 0px; padding: 0px 16px;"
       >
         <div
           class="euiFlexItem"
         >
-          <h1
-            class="euiTitle euiTitle--small"
+          <div
+            class="euiText euiText--small"
           >
-            Index settings
-            <span
-              class="panel-header-count"
+            <h2
+              class="euiTitle euiTitle--medium"
             >
-               
-               
-            </span>
-          </h1>
+              Index settings
+            </h2>
+          </div>
         </div>
         <div
           class="euiFlexItem euiFlexItem--flexGrowZero"
@@ -344,15 +333,19 @@ exports[`<CreateComposableTemplate /> spec it goes to templates page when click 
     >
       <div
         class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--alignItemsFlexStart euiFlexGroup--justifyContentSpaceBetween euiFlexGroup--directionRow euiFlexGroup--responsive"
-        style="margin-top: 0px; margin-bottom: 0px; padding: 0px 10px;"
+        style="margin-top: 0px; margin-bottom: 0px; padding: 0px 16px;"
       >
         <div
           class="euiFlexItem"
         >
           <div
-            class="euiTitle euiTitle--small"
+            class="euiText euiText--small"
           >
-            Index mapping
+            <h2
+              class="euiTitle euiTitle--medium"
+            >
+              Index mapping
+            </h2>
           </div>
           <div
             class="euiFormRow euiFormRow--fullWidth euiFormRow--compressed"
