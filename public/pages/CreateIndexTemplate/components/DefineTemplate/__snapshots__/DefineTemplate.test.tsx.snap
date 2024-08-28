@@ -8,7 +8,7 @@ exports[`<ComposableTemplatesActions /> spec renders the component in edit mode 
   >
     <div
       class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--alignItemsFlexStart euiFlexGroup--justifyContentSpaceBetween euiFlexGroup--directionRow euiFlexGroup--responsive"
-      style="padding: 0px 10px;"
+      style="padding: 0px 16px;"
     >
       <div
         class="euiFlexItem"
@@ -30,7 +30,7 @@ exports[`<ComposableTemplatesActions /> spec renders the component in edit mode 
       class="euiHorizontalRule euiHorizontalRule--full euiHorizontalRule--marginXSmall"
     />
     <div
-      style="padding: 0px 10px;"
+      style="padding: 0px 16px;"
     >
       <div
         class="euiSpacer euiSpacer--s"
@@ -403,7 +403,7 @@ exports[`<ComposableTemplatesActions /> spec renders the component in non-edit m
   >
     <div
       class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--alignItemsFlexStart euiFlexGroup--justifyContentSpaceBetween euiFlexGroup--directionRow euiFlexGroup--responsive"
-      style="padding: 0px 10px;"
+      style="padding: 0px 16px;"
     >
       <div
         class="euiFlexItem"
@@ -425,7 +425,7 @@ exports[`<ComposableTemplatesActions /> spec renders the component in non-edit m
       class="euiHorizontalRule euiHorizontalRule--full euiHorizontalRule--marginXSmall"
     />
     <div
-      style="padding: 0px 10px;"
+      style="padding: 0px 16px;"
     >
       <div
         class="euiSpacer euiSpacer--s"
