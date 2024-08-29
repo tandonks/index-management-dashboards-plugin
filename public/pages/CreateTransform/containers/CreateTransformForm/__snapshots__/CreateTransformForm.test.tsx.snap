@@ -630,9 +630,13 @@ exports[`<CreateTransformForm /> spec renders the component 1`] = `
                 <div
                   class="euiTextColor euiTextColor--default"
                 >
-                  <p>
-                    You can't change indices after creating a job. Double-check the source and target index names before proceeding.
-                  </p>
+                  <div
+                    class="euiText euiText--small"
+                  >
+                    <p>
+                      You can't change indices after creating a job. Double-check the source and target index names before proceeding.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
