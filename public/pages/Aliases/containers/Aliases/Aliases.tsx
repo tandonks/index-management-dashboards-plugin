@@ -24,6 +24,7 @@ import {
   EuiCompressedFormRow,
   EuiEmptyPrompt,
   EuiSmallButton,
+  EuiPanel,
 } from "@elastic/eui";
 import { ContentPanel, ContentPanelActions } from "../../../../components/ContentPanel";
 import { DEFAULT_PAGE_SIZE_OPTIONS, DEFAULT_QUERY_PARAMS } from "../../utils/constants";
@@ -39,7 +40,7 @@ import { CoreStart } from "opensearch-dashboards/public";
 import { DataSourceMenuContext, DataSourceMenuProperties } from "../../../../services/DataSourceMenuContext";
 import MDSEnabledComponent from "../../../../components/MDSEnabledComponent";
 import { getApplication, getNavigationUI, getUISettings } from "../../../../services/Services";
-import { TopNavControlButtonData, TopNavControlDescriptionData } from "src/plugins/navigation/public";
+import { TopNavControlButtonData, TopNavControlDescriptionData, TopNavControlLinkData } from "src/plugins/navigation/public";
 
 interface AliasesProps extends RouteComponentProps, DataSourceMenuProperties {
   commonService: CommonService;
@@ -306,23 +307,18 @@ class Aliases extends MDSEnabledComponent<AliasesProps, AliasesState> {
 
     const description = [
       {
-        renderComponent: (
-          <EuiCompressedFormRow
-            fullWidth
-            helpText={
-              <div style={{ width: "51%" }}>
-                An alias is a virtual index name that can point to one or more indexes. If your data is spread across multiple indexes, you
-                can create and query an alias instead of keeping track of which indexes to query.{" "}
-                <EuiLink target="_blank" external href={(this.context as CoreStart).docLinks.links.opensearch.indexAlias.base}>
-                  Learn more
-                </EuiLink>
-              </div>
-            }
-          >
-            <></>
-          </EuiCompressedFormRow>
-        ),
-      },
+        description:
+          "An alias is a virtual index name that can point to one or more indexes. If your data is spread across multiple indexes, you can create and query an alias instead of keeping track of which indexes to query.",
+        links: {
+          label: "Learn more",
+          href: (this.context as CoreStart).docLinks.links.opensearch.indexAlias.base,
+          iconType: "popout",
+          iconSide: "right",
+          controlType: "link",
+          target: "_blank",
+          flush: "both",
+        } as TopNavControlLinkData,
+      } as TopNavControlDescriptionData,
     ];
 
     const commonRender = () => {
@@ -476,7 +472,7 @@ class Aliases extends MDSEnabledComponent<AliasesProps, AliasesState> {
             } as TopNavControlButtonData,
           ]}
         />
-        <ContentPanel>
+        <EuiPanel>
           <IndexControls
             value={{
               search: this.state.search,
@@ -491,7 +487,7 @@ class Aliases extends MDSEnabledComponent<AliasesProps, AliasesState> {
             history={this.props.history}
           />
           {commonRender()}
-        </ContentPanel>
+        </EuiPanel>
       </div>
     ) : (
       <ContentPanel
@@ -515,6 +511,7 @@ class Aliases extends MDSEnabledComponent<AliasesProps, AliasesState> {
                 text: "Create alias",
                 buttonProps: {
                   fill: true,
+                  iconType: "plus",
                   onClick: () => {
                     this.setState({
                       aliasCreateFlyoutVisible: true,
