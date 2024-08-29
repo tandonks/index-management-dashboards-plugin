@@ -309,8 +309,14 @@ exports[`<IndicesActions /> spec refresh selected indexes by calling commonServi
             <div
               class="euiModalHeader__title"
             >
-              Refresh 
-              indexes
+              <div
+                class="euiText euiText--small"
+              >
+                <h2>
+                  Refresh 
+                  indexes
+                </h2>
+              </div>
             </div>
           </div>
           <div
@@ -322,18 +328,26 @@ exports[`<IndicesActions /> spec refresh selected indexes by calling commonServi
               <div
                 style="line-height: 1.5;"
               >
-                <p>
-                  The following index
-                   will be refreshed.
-                </p>
+                <div
+                  class="euiText euiText--small"
+                >
+                  <p>
+                    The following index
+                     will be refreshed.
+                  </p>
+                </div>
                 <ul
                   style="list-style-type: disc; list-style-position: inside;"
                 >
-                  <li
-                    data-test-subj="UnblockedItem-unblocked_index"
+                  <div
+                    class="euiText euiText--small"
                   >
-                    unblocked_index
-                  </li>
+                    <li
+                      data-test-subj="UnblockedItem-unblocked_index"
+                    >
+                      unblocked_index
+                    </li>
+                  </div>
                 </ul>
                 <div
                   class="euiSpacer euiSpacer--l"
@@ -485,8 +499,14 @@ HTMLCollection [
               class="euiModalHeader__title"
               data-test-subj="flushModalTitle"
             >
-              Flush 
-              indexes
+              <div
+                class="euiText euiText--small"
+              >
+                <h2>
+                  Flush 
+                  indexes
+                </h2>
+              </div>
             </div>
           </div>
           <div
@@ -498,18 +518,30 @@ HTMLCollection [
               <div
                 style="line-height: 1.5;"
               >
-                <p>
-                  The following indexes will be flushed:
-                </p>
+                <div
+                  class="euiText euiText--small"
+                >
+                  <p>
+                    The following indexes will be flushed:
+                  </p>
+                </div>
                 <ul
                   style="list-style-type: disc; list-style-position: inside;"
                 >
-                  <li>
-                    test_index2
-                  </li>
-                  <li>
-                    test_index3
-                  </li>
+                  <div
+                    class="euiText euiText--small"
+                  >
+                    <li>
+                      test_index2
+                    </li>
+                  </div>
+                  <div
+                    class="euiText euiText--small"
+                  >
+                    <li>
+                      test_index3
+                    </li>
+                  </div>
                 </ul>
                 <div
                   class="euiSpacer euiSpacer--l"
@@ -524,18 +556,30 @@ HTMLCollection [
                     <div
                       class="euiTextColor euiTextColor--default"
                     >
-                      <p>
-                        The following indexes will not be flushed because they are either closed or in red status:
-                      </p>
+                      <div
+                        class="euiText euiText--small"
+                      >
+                        <p>
+                          The following indexes will not be flushed because they are either closed or in red status:
+                        </p>
+                      </div>
                       <ul
                         style="list-style-type: disc; list-style-position: inside;"
                       >
-                        <li>
-                          test_index1
-                        </li>
-                        <li>
-                          test_index4
-                        </li>
+                        <div
+                          class="euiText euiText--small"
+                        >
+                          <li>
+                            test_index1
+                          </li>
+                        </div>
+                        <div
+                          class="euiText euiText--small"
+                        >
+                          <li>
+                            test_index4
+                          </li>
+                        </div>
                       </ul>
                     </div>
                   </div>
