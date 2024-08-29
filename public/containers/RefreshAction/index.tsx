@@ -169,11 +169,9 @@ export default function RefreshActionModal<T>(props: RefreshActionModalProps) {
     <EuiModal onClose={onClose}>
       <EuiModalHeader>
         <EuiModalHeaderTitle>
-          {" "}
           <EuiText size="s">
-            {" "}
-            <h2>Refresh {type}</h2>{" "}
-          </EuiText>{" "}
+            <h2>Refresh {type}</h2>
+          </EuiText>
         </EuiModalHeaderTitle>
       </EuiModalHeader>
 
@@ -191,15 +189,15 @@ export default function RefreshActionModal<T>(props: RefreshActionModalProps) {
               <EuiText size="s">
                 <p>{unblockedWording} will be refreshed.</p>
               </EuiText>
-              <EuiText size="s">
-                <ul style={{ listStyleType: "disc", listStylePosition: "inside" }}>
-                  {unBlockedItems.map((item) => (
+              <ul style={{ listStyleType: "disc", listStylePosition: "inside" }}>
+                {unBlockedItems.map((item) => (
+                  <EuiText size="s">
                     <li key={item} data-test-subj={`UnblockedItem-${item}`}>
                       {item}
                     </li>
-                  ))}
-                </ul>
-              </EuiText>
+                  </EuiText>
+                ))}
+              </ul>
             </>
           )}
           <EuiSpacer />

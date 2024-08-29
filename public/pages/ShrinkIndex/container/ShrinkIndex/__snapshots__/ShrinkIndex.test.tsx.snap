@@ -717,7 +717,7 @@ exports[`<Shrink index /> spec renders the component 1`] = `
         class="euiHorizontalRule euiHorizontalRule--full"
       />
       <div
-        style="padding: 0px 10px; display: none;"
+        style="padding: 0px 16px; display: none;"
       >
         <div
           class="euiSpacer euiSpacer--s"
@@ -725,7 +725,13 @@ exports[`<Shrink index /> spec renders the component 1`] = `
         <div>
           <div
             class="euiText euiText--small"
+          <div
+            class="euiText euiText--small"
           >
+            <h3>
+              Notifications
+            </h3>
+          </div>
             <h3>
               Notifications
             </h3>

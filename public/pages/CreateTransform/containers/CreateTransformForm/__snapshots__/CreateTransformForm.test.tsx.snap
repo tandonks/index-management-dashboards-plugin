@@ -167,7 +167,7 @@ exports[`<CreateTransformForm /> spec renders the component 1`] = `
           >
             <div
               class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--alignItemsFlexStart euiFlexGroup--justifyContentSpaceBetween euiFlexGroup--directionRow euiFlexGroup--responsive"
-              style="padding: 0px 10px;"
+              style="padding: 0px 16px;"
             >
               <div
                 class="euiFlexItem"
@@ -302,7 +302,7 @@ exports[`<CreateTransformForm /> spec renders the component 1`] = `
             >
               <div
                 class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--alignItemsFlexStart euiFlexGroup--justifyContentSpaceBetween euiFlexGroup--directionRow euiFlexGroup--responsive"
-                style="padding: 0px 10px;"
+                style="padding: 0px 16px;"
               >
                 <div
                   class="euiFlexItem"
@@ -644,9 +644,13 @@ exports[`<CreateTransformForm /> spec renders the component 1`] = `
                 <div
                   class="euiTextColor euiTextColor--default"
                 >
-                  <p>
-                    You can't change indices after creating a job. Double-check the source and target index names before proceeding.
-                  </p>
+                  <div
+                    class="euiText euiText--small"
+                  >
+                    <p>
+                      You can't change indices after creating a job. Double-check the source and target index names before proceeding.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
