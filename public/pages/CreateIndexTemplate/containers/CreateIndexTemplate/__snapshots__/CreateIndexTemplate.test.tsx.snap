@@ -281,7 +281,6 @@ exports[`<CreateIndexTemplate /> spec render template pages 1`] = `
           >
             <dl
               class="euiDescriptionList euiDescriptionList--row euiDescriptionList--compressed"
-              class="euiDescriptionList euiDescriptionList--row euiDescriptionList--compressed"
             >
               <dt
                 class="euiDescriptionList__title"
@@ -323,7 +322,6 @@ exports[`<CreateIndexTemplate /> spec render template pages 1`] = `
           >
             <dl
               class="euiDescriptionList euiDescriptionList--row euiDescriptionList--compressed"
-              class="euiDescriptionList euiDescriptionList--row euiDescriptionList--compressed"
             >
               <dt
                 class="euiDescriptionList__title"
@@ -348,7 +346,6 @@ exports[`<CreateIndexTemplate /> spec render template pages 1`] = `
           >
             <dl
               class="euiDescriptionList euiDescriptionList--row euiDescriptionList--compressed"
-              class="euiDescriptionList euiDescriptionList--row euiDescriptionList--compressed"
             >
               <dt
                 class="euiDescriptionList__title"
@@ -372,7 +369,6 @@ exports[`<CreateIndexTemplate /> spec render template pages 1`] = `
             class="euiFlexItem"
           >
             <dl
-              class="euiDescriptionList euiDescriptionList--row euiDescriptionList--compressed"
               class="euiDescriptionList euiDescriptionList--row euiDescriptionList--compressed"
             >
               <dt
@@ -743,13 +739,6 @@ exports[`<CreateIndexTemplate /> spec render template pages 1`] = `
             <div
               class="euiSpacer euiSpacer--l"
             />
-            <div
-              class="euiText euiText--small"
-            >
-              <p>
-                You have no field mappings.
-              </p>
-            </div>
             <div
               class="euiText euiText--small"
             >

@@ -725,13 +725,7 @@ exports[`<Shrink index /> spec renders the component 1`] = `
         <div>
           <div
             class="euiText euiText--small"
-          <div
-            class="euiText euiText--small"
           >
-            <h3>
-              Notifications
-            </h3>
-          </div>
             <h3>
               Notifications
             </h3>

@@ -1158,13 +1158,6 @@ exports[`<TemplateDetail /> spec render component in non-edit-mode 1`] = `
             </p>
           </div>
           <div
-            class="euiText euiText--small"
-          >
-            <p>
-              You have no field mappings.
-            </p>
-          </div>
-          <div
             class="euiSpacer euiSpacer--l"
           />
           <button
