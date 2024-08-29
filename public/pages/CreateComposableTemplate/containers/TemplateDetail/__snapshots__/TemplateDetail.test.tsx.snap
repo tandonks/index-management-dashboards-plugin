@@ -50,8 +50,7 @@ exports[`<TemplateDetail /> spec render component 1`] = `
     class="euiPanel euiPanel--paddingMedium euiPanel--borderRadiusMedium euiPanel--plain euiPanel--hasShadow"
   >
     <div
-      class="euiFlexGroup euiFlexGroup--gutterLarge euiFlexGroup--alignItemsFlexStart euiFlexGroup--justifyContentSpaceBetween euiFlexGroup--directionRow euiFlexGroup--responsive"
-      style="padding: 0px 16px;"
+      class="euiFlexGroup euiFlexGroup--gutterExtraSmall euiFlexGroup--alignItemsCenter euiFlexGroup--directionRow euiFlexGroup--responsive"
     >
       <div
         class="euiText euiText--small"
@@ -65,7 +64,9 @@ exports[`<TemplateDetail /> spec render component 1`] = `
       class="euiHorizontalRule euiHorizontalRule--full euiHorizontalRule--marginXSmall"
     />
     <div
-      style="padding: 0px 16px;"
+      class="euiFormRow euiFormRow--compressed"
+      data-test-subj="form-row-name"
+      id="some_html_id-row"
     >
       <div
         class="euiFormRow__labelWrapper"
