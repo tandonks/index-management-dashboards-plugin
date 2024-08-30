@@ -17,10 +17,10 @@ import {
   EuiComboBoxOptionOption,
   EuiBadge,
   EuiLink,
+  EuiPanel,
 } from "@elastic/eui";
 import _ from "lodash";
 import EuiCompressedComboBox from "../../../../components/ComboBoxWithoutWarning";
-import { ContentPanel } from "../../../../components/ContentPanel";
 import IndexFilterPopover from "../IndexFilterPopover";
 import { FieldItem, IndexItem } from "../../../../../models/interfaces";
 import IndexService from "../../../../services/IndexService";
@@ -163,16 +163,11 @@ export default class TransformIndices extends Component<TransformIndicesProps, T
 
     return (
       <div>
-        <ContentPanel
-          panelStyles={{ padding: "16px 16px" }}
-          bodyStyles={{ padding: "10px" }}
-          title={
-            <EuiText size="s">
-              <h2>Indices</h2>
-            </EuiText>
-          }
-          titleSize="m"
-        >
+        <EuiPanel>
+          <EuiText size="s">
+            <h2>Indices</h2>
+          </EuiText>
+          <EuiHorizontalRule margin="xs" />
           <div>
             {hasAggregation && (
               <Fragment>
@@ -291,7 +286,7 @@ export default class TransformIndices extends Component<TransformIndicesProps, T
               />
             </EuiCompressedFormRow>
           </div>
-        </ContentPanel>
+        </EuiPanel>
         <Fragment>
           <EuiSpacer />
           <EuiCallOut color="warning">

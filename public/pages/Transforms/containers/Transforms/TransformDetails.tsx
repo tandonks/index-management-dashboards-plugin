@@ -447,11 +447,9 @@ export class TransformDetails extends Component<TransformDetailsProps, Transform
                 <EuiModalHeaderTitle>{"View JSON of " + id} </EuiModalHeaderTitle>
               </EuiModalHeader>
 
-              <EuiModalBody>
-                <EuiCodeBlock language="json" fontSize="m" paddingSize="m" overflowHeight={600} inline={false} isCopyable>
-                  {JSON.stringify(transformJson, null, 4)}
-                </EuiCodeBlock>
-              </EuiModalBody>
+              <EuiCodeBlock language="json" fontSize="m" paddingSize="m" overflowHeight={600} inline={false} isCopyable>
+                {JSON.stringify(transformJson, null, 4)}
+              </EuiCodeBlock>
 
               <EuiModalFooter>
                 <EuiSmallButtonEmpty onClick={this.closeModal}>Close</EuiSmallButtonEmpty>
